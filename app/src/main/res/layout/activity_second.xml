@@ -16,4 +16,13 @@
         android:layout_marginTop="68dp"
         android:text="This is the second activity"
         android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:text=""
+        android:textSize="20dp"/>
 </RelativeLayout>
